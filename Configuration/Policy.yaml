@@ -1,0 +1,7 @@
+resources:
+  methods:
+    Famelo_Bar_TestController: 'method(Famelo\Bar\Controller\TestController->.*Action())'
+acls:
+  Everybody:
+    methods:
+      Famelo_Bar_TestController: GRANT
