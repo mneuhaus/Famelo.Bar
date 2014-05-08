@@ -6,8 +6,8 @@
         "typo3/flow": "*"
     },
     "autoload": {
-        "psr-0": {
-            "Famelo\\Bar": "Classes"
+        "psr-4": {
+            "Famelo\\Bar\\": "Classes"
         }
     }
 }
